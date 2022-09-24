@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
     <title>Encriptador Alura</title>
 </head>
@@ -15,29 +16,27 @@
         <h1>! Bienvenidos al Encriptador Alura !</h1>
     </header>
 
-    <body>
+    <main>
         <section class="input">
-            <input type="text" value="Hola, ingrese texto aqui ...">
-            <div class="boton">
-                <h3>Encriptar</h3>
+            <textarea name="" id="" cols="60" rows="21" placeholder=">>Ingrese texto aqui"></textarea>
+            <div class="botones-input">
+                <button class="boton">Encriptar</button>
+                <button class="boton">Desencriptar</button>
             </div>
-            </div>
-            <div class="boton">
-                <h3>Desencriptar</h3>
-            </div>
+
         </section>
 
         <section class="ouput">
-            <p>Resultado</p>
-            <div class="boton">
-                <h3>Copiar</h3>
+            <textarea name="" id="" cols="40" rows="21" placeholder="Resultado" disabled="true"></textarea>
+            <div class="botones-ouput">
+                <button class="boton" id="copiar">Copiar</button>
             </div>
         </section>
 
-    </body>
+    </main>
 
     <footer>
-        <p>Encriptador Alura desarrollado por Anthony Lopez</p>
+        <p>&copy Copyright Encriptador Alura desarrollado por Anthony Lopez</p>
     </footer>
 
 </body>
